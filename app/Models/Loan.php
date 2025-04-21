@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Loan extends Model
 {
     use HasFactory;
-    
+
     protected $fillable = [
         'loan_amount',
         'annual_interest_rate',
