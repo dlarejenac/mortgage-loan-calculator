@@ -79,3 +79,9 @@ To run all feature and unit tests:
 ```bash
 php artisan test
 ```
+
+## Dependencies
+markrogoyski/math-php for IRR (install via composer):
+```bash
+composer require markrogoyski/math-php
+```
