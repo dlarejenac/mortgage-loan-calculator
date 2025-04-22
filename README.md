@@ -23,7 +23,7 @@ composer install
 ```
 **3. Generate Key**
 ```bash
-php artisan key generate
+php artisan key:generate
 ```
 **4. Run Migrations**
 ```bash
