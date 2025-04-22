@@ -89,7 +89,7 @@ class LoanController extends Controller
                 $monthlyIRR = Finance::irr($cashFlows);
                 $effectiveAnnualRate = pow(1 + $monthlyIRR, 12) - 1;
 
-                return round($effectiveAnnualRate * 100, 2); // in %
+                return round($effectiveAnnualRate * 100, 2);
             } catch (\Exception $e) {
                 return null;
             }
