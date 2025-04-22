@@ -38,8 +38,8 @@ If needed, install manually:
 ```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-
-npm install flowbite```
+npm install flowbite
+```
 Then edit tailwind.config.js:
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -54,7 +54,8 @@ module.exports = {
   plugins: [
     require('flowbite/plugin')
   ],
-}```
+}
+```
 And in resources/css/app.css:
 ```css
 @tailwind base;
