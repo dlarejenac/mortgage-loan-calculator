@@ -7,6 +7,7 @@ A web appplication that calculates monthly payments, generates amortization sche
 - MySQL
 - Node.js & npm (Tailwind CSS & Flowbite)
 - Laravel^10.x
+- XAMPP/WAMP
 - PHPUnit
 - markrogoyski/math-php (IRR)
 
