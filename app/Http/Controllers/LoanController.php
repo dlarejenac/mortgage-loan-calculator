@@ -20,6 +20,11 @@ class LoanController extends Controller
             'annual_interest_rate' => 'required|numeric|min:0.01',
             'loan_term_years' => 'required|integer|min:1',
             'extra_payment' => 'nullable|numeric|min:0',
+        ], [
+            'loan_amount.min' => 'Loan amount must be greater than zero.',
+            'annual_interest_rate.min' => 'Interest rate must be positive.',
+            'loan_term_years.min' => 'Loan term must be at least 1 year.',
+            'extra_payment.min' => 'Extra payment cannot be negative'
         ]);
 
         $loan = Loan::create($validated);

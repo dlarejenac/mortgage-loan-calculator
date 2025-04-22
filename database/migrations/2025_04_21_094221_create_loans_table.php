@@ -16,7 +16,7 @@ return new class extends Migration
             $table->decimal('loan_amount', 15, 2);
             $table->decimal('annual_interest_rate', 5, 2);
             $table->integer('loan_term_years');
-            $table->decimal('extra_payment', 15, 2)->default(0);
+            $table->decimal('extra_payment', 15, 2)->default(0)->nullable();
             $table->timestamps();
         });
     }
