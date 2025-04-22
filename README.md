@@ -69,7 +69,9 @@ And in resources/css/app.css:
 npm run dev
 ```
 **8. Run the Application**
-```php artisan serve```
+```bash
+php artisan serve
+```
 Visit http://127.0.0.1:8000
 
 ## Running Tests
